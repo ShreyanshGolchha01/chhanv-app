@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "GovtHealthAppExpo",
+    "name": "Project Chhanv",
     "slug": "GovtHealthAppExpo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/loading_screen.png",
+        "foregroundImage": "./assets/chhanv_logo.png",
         "backgroundColor": "#000000"
       },
       "edgeToEdgeEnabled": true,
@@ -46,18 +46,21 @@
               "scheme": "http"
             }
           ],
-          "category": ["BROWSABLE", "DEFAULT"]
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
         }
       ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "owner": "pulkita_12",
     "extra": {
       "eas": {
-        "projectId": "368774b9-236c-40dc-ab49-90745359af3e"
+        "projectId": "b273705d-abf9-4aa1-99a1-4587c6cf47ff"
       }
-    },
-    "owner": "tanmay_17"
+    }
   }
 }

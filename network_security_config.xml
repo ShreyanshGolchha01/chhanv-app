@@ -27,4 +27,12 @@
             <certificates src="user"/>
         </trust-anchors>
     </debug-overrides>
+    <application
+        cleartextTrafficPermitted="true"
+        networkSecurityConfig="@xml/network_security_config">
+        <trust-anchors>
+            <certificates src="system"/>
+            <certificates src="user"/>
+        </trust-anchors>
+    </application>
 </network-security-config>
